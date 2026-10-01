@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>1. Tâm thức của Thảo · My Life Picture 2026</title>
+<meta name="description" content="Tổng quan Tâm thức của Thảo: Lõi tâm thức, Tâm lý và vòng trưởng thành." />
+<style>
+:root{
+  --bg:#f5f1e9;
+  --paper:#fffdf8;
+  --ink:#17383d;
+  --muted:#667d7c;
+  --teal:#2e8d99;
+  --teal-deep:#1f6871;
+  --teal-soft:#dfeff1;
+  --gold:#c59a58;
+  --gold-soft:#f2e8d5;
+  --rose:#b8756f;
+  --rose-soft:#f4e5e1;
+  --line:rgba(23,56,61,.14);
+  --shadow:0 20px 70px rgba(25,61,67,.10);
+  --radius:28px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:92px}
+body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:radial-gradient(circle at 8% 0%,rgba(46,141,153,.10),transparent 34%),radial-gradient(circle at 96% 12%,rgba(197,154,88,.11),transparent 27%),var(--bg);line-height:1.72}
+a{color:inherit;text-decoration:none}
+button{font:inherit}
+.shell{max-width:1180px;margin:auto;padding:0 24px}
+
+/* NAV */
+nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(16px);background:rgba(245,241,233,.88);border-bottom:1px solid var(--line)}
+.nav-inner{height:70px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{display:flex;align-items:center;gap:10px;font-size:13px;font-weight:850;letter-spacing:.08em;text-transform:uppercase;color:var(--teal-deep);white-space:nowrap}
+.brand-dot{width:8px;height:8px;border-radius:50%;background:var(--gold)}
+.nav-links{display:flex;align-items:center;gap:20px;font-size:14px;color:var(--muted)}
+.nav-links a{position:relative;padding:24px 0 22px;transition:.2s ease}
+.nav-links a:after{content:"";position:absolute;left:0;right:0;bottom:15px;height:2px;background:var(--teal-deep);transform:scaleX(0);transition:.2s ease}
+.nav-links a:hover,.nav-links a.active{color:var(--teal-deep)}
+.nav-links a.active:after{transform:scaleX(1)}
+.nav-action{border:1px solid var(--line);background:rgba(255,253,248,.82);color:var(--teal-deep);border-radius:999px;padding:9px 13px;font-size:13px;font-weight:750;cursor:pointer;transition:.2s ease;white-space:nowrap}
+.nav-action:hover{background:var(--paper);transform:translateY(-1px)}
+
+/* HERO */
+.hero{padding:92px 0 72px}
+.eyebrow{display:flex;align-items:center;gap:12px;font-size:13px;font-weight:850;letter-spacing:.16em;text-transform:uppercase;color:var(--teal-deep)}
+.eyebrow:before{content:"";width:40px;height:1px;background:var(--gold)}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center;margin-top:16px}
+h1{font-size:clamp(56px,8vw,104px);line-height:.98;font-weight:500;letter-spacing:-.055em;margin:0 0 24px}
+h1 em{font-style:normal;color:var(--teal-deep)}
+.hero-lead{font-size:clamp(20px,2.2vw,27px);line-height:1.5;color:#31585b;max-width:760px;margin:0}
+.hero-note{margin:26px 0 0;padding-left:18px;border-left:2px solid var(--gold);color:var(--muted);font-size:17px;max-width:760px}
+.hero-orbit{min-height:500px;position:relative;border-radius:42px;background:linear-gradient(155deg,rgba(255,255,255,.95),rgba(223,239,241,.62));border:1px solid rgba(46,141,153,.20);box-shadow:var(--shadow);overflow:hidden}
+.orbit{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);border-radius:50%;border:1px solid rgba(46,141,153,.18)}
+.o1{width:180px;height:180px}.o2{width:310px;height:310px}.o3{width:440px;height:440px;border-color:rgba(197,154,88,.22)}
+.orbit-core{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:176px;height:176px;border-radius:50%;display:grid;place-items:center;text-align:center;background:var(--teal-deep);color:white;box-shadow:0 26px 60px rgba(31,104,113,.26);font-weight:850;line-height:1.35}
+.orbit-tag{position:absolute;padding:9px 13px;border-radius:999px;background:rgba(255,253,248,.95);border:1px solid var(--line);font-size:12px;font-weight:800;box-shadow:0 10px 26px rgba(25,61,67,.08)}
+.ot1{left:9%;top:15%}.ot2{right:8%;top:24%}.ot3{left:6%;bottom:25%}.ot4{right:8%;bottom:18%}.ot5{left:50%;bottom:7%;transform:translateX(-50%)}
+
+/* COMMON */
+section{padding:92px 0;border-top:1px solid var(--line)}
+.section-head{display:grid;grid-template-columns:.72fr 1.28fr;gap:50px;align-items:start;margin-bottom:44px}
+.section-num{font-size:12px;font-weight:900;letter-spacing:.16em;text-transform:uppercase;color:var(--teal-deep)}
+h2{font-size:clamp(38px,5.2vw,64px);line-height:1.06;font-weight:500;letter-spacing:-.04em;margin:9px 0 0}
+.section-intro{font-size:20px;color:#456669;margin:0;max-width:790px}
+.kicker{font-size:12px;font-weight:900;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-bottom:8px}
+.quote{margin:28px 0 0;padding:24px 28px;border-left:3px solid var(--gold);border-radius:0 22px 22px 0;background:var(--paper);box-shadow:var(--shadow);font-size:clamp(20px,2.3vw,30px);line-height:1.45;color:#284e52}
+.muted{color:var(--muted)}
+
+/* MINDMAP */
+.mindmap-wrap{padding:34px;border-radius:34px;background:rgba(255,253,248,.78);border:1px solid var(--line);box-shadow:var(--shadow)}
+.mind-root{width:min(360px,90%);margin:0 auto 42px;text-align:center;padding:22px 24px;border-radius:24px;background:var(--teal-deep);color:white;position:relative;box-shadow:0 18px 48px rgba(31,104,113,.22)}
+.mind-root strong{display:block;font-size:24px;margin-bottom:2px}.mind-root span{font-size:14px;color:rgba(255,255,255,.76)}
+.mind-root:after{content:"";position:absolute;left:50%;bottom:-42px;width:1px;height:42px;background:var(--line)}
+.mind-branches{display:grid;grid-template-columns:1fr 1fr;gap:28px;position:relative}
+.mind-branches:before{content:"";position:absolute;left:25%;right:25%;top:-1px;height:1px;background:var(--line)}
+.mind-branch{position:relative;padding:22px;border-radius:28px;border:1px solid var(--line);background:var(--paper)}
+.mind-branch:before{content:"";position:absolute;left:50%;top:-28px;width:1px;height:28px;background:var(--line)}
+.branch-head{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:16px}
+.branch-title{font-size:21px;font-weight:800;color:var(--teal-deep)}
+.branch-sub{font-size:13px;color:var(--muted)}
+.node-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.node{display:block;padding:14px 15px;border-radius:17px;background:var(--teal-soft);border:1px solid rgba(46,141,153,.14);transition:.2s ease}
+.node:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(25,61,67,.08)}
+.node strong{display:block;font-size:14px;color:var(--teal-deep)}
+.node span{display:block;font-size:12px;color:var(--muted);margin-top:2px}
+.node.psy{background:var(--gold-soft);border-color:rgba(197,154,88,.18)}
+.node.psy strong{color:#8c6832}
+
+/* ACCORDION */
+.accordion-list{display:grid;gap:14px}
+details.accordion{background:rgba(255,253,248,.86);border:1px solid var(--line);border-radius:24px;overflow:hidden;transition:.2s ease}
+details.accordion[open]{background:var(--paper);box-shadow:0 16px 44px rgba(25,61,67,.07)}
+summary{list-style:none;cursor:pointer;padding:22px 64px 22px 24px;position:relative;display:grid;grid-template-columns:54px 1fr;gap:16px;align-items:start}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"+";position:absolute;right:24px;top:22px;width:30px;height:30px;border-radius:50%;display:grid;place-items:center;border:1px solid var(--line);color:var(--teal-deep);font-size:19px;font-weight:500;background:white;transition:.2s ease}
+details[open] summary:after{content:"−";transform:rotate(180deg)}
+.acc-num{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;background:var(--teal-soft);color:var(--teal-deep);font-weight:900;font-size:13px}
+.acc-title{font-size:21px;font-weight:800;line-height:1.25;margin-bottom:5px}
+.acc-sub{font-size:14px;color:var(--muted);line-height:1.5}
+.acc-body{padding:0 26px 26px 94px;color:#365c60}
+.acc-body p{margin:0 0 14px}
+.acc-body p:last-child{margin-bottom:0}
+.acc-body strong{color:var(--teal-deep)}
+.keyline{font-weight:800;color:var(--ink);font-size:17px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}
+.chip{padding:8px 11px;border-radius:999px;background:var(--teal-soft);color:var(--teal-deep);font-weight:750;font-size:13px}
+.chip.gold{background:var(--gold-soft);color:#8c6832}
+.chip.rose{background:var(--rose-soft);color:#915a55}
+
+/* MINI CARDS */
+.mini-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:14px}
+.mini-card{padding:17px 18px;border-radius:18px;background:#fbfaf5;border:1px solid var(--line)}
+.mini-card h4{margin:0 0 6px;font-size:16px;color:var(--teal-deep)}
+.mini-card p{margin:0;color:var(--muted);font-size:14px;line-height:1.6}
+.flow-box{margin-top:18px;padding:19px;border-radius:20px;background:linear-gradient(145deg,rgba(223,239,241,.62),rgba(255,253,248,.96));border:1px solid var(--line)}
+.flow{display:flex;flex-wrap:wrap;align-items:center;gap:7px;justify-content:center}
+.flow span{padding:8px 10px;border-radius:999px;background:white;border:1px solid var(--line);font-size:12px;font-weight:800;color:var(--teal-deep)}
+.flow b{color:var(--gold)}
+
+/* CORE ARCH */
+.architecture{margin-top:34px;padding:28px;border-radius:28px;background:#173f45;color:#f9f4ea;overflow:hidden;position:relative}
+.architecture:before{content:"";position:absolute;width:360px;height:360px;border:1px solid rgba(255,255,255,.10);border-radius:50%;right:-180px;top:-180px}
+.architecture .kicker{color:#dfbd84}
+.arch-flow{display:flex;flex-wrap:wrap;gap:9px;align-items:center;margin-top:18px;position:relative;z-index:1}
+.arch-flow span{padding:10px 13px;border-radius:999px;background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.12);font-size:13px;font-weight:750}
+.arch-flow b{color:#dfbd84}
+.architecture p{max-width:940px;color:rgba(249,244,234,.80);margin:18px 0 0;position:relative;z-index:1}
+
+/* PSYCHOLOGY */
+.psychology{background:linear-gradient(180deg,rgba(255,253,248,.28),rgba(242,232,213,.25))}
+.psychology details .acc-num{background:var(--gold-soft);color:#8c6832}
+.psychology details summary:after{color:#8c6832}
+.psychology details .acc-body strong{color:#7f6336}
+.home-base{display:grid;grid-template-columns:1.05fr .95fr;gap:22px;margin-bottom:22px}
+.home-card{padding:28px;border-radius:28px;background:var(--paper);border:1px solid var(--line)}
+.home-card h3{margin:0 0 10px;font-size:25px;font-weight:700;color:var(--teal-deep)}
+.home-card p{margin:0;color:var(--muted)}
+.spring-card{min-height:220px;position:relative;border-radius:28px;background:linear-gradient(145deg,#f8f0df,#fffdf8);border:1px solid var(--line);overflow:hidden;display:grid;place-items:center;padding:24px}
+.spring-line{width:72%;height:2px;background:rgba(197,154,88,.35);position:relative}
+.spring-line:before,.spring-line:after{content:"";position:absolute;top:50%;width:12px;height:12px;border-radius:50%;background:var(--gold);transform:translateY(-50%)}
+.spring-line:before{left:0}.spring-line:after{right:0}
+.spring-equilibrium{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:112px;height:112px;border-radius:50%;display:grid;place-items:center;text-align:center;background:var(--teal-deep);color:white;font-weight:850;box-shadow:0 18px 40px rgba(31,104,113,.18)}
+.spring-label{position:absolute;bottom:20px;color:var(--muted);font-size:12px;text-align:center;padding:0 20px}
+
+/* CYCLE */
+.cycle-wrap{padding:34px;border-radius:32px;background:var(--paper);border:1px solid var(--line);box-shadow:var(--shadow)}
+.cycle-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;align-items:stretch}
+.cycle-step{padding:16px 14px;border-radius:18px;border:1px solid var(--line);background:#fbfaf5;text-align:center;position:relative;transition:.2s ease}
+.cycle-step:hover{transform:translateY(-2px);background:white}
+.cycle-step:not(:last-child):after{content:"→";position:absolute;right:-12px;top:50%;transform:translateY(-50%);color:var(--gold);font-weight:900;z-index:2}
+.cycle-step .n{display:block;font-size:11px;letter-spacing:.08em;color:var(--gold);font-weight:900;margin-bottom:5px}
+.cycle-step strong{font-size:14px;color:var(--teal-deep);line-height:1.35}
+.cycle-return{margin:18px auto 0;text-align:center;font-size:13px;color:var(--muted)}
+.cycle-return b{color:var(--teal-deep)}
+
+/* END */
+.closing{padding:104px 0;background:linear-gradient(145deg,#173f45,#286f78);color:#f9f4ea;text-align:center;position:relative;overflow:hidden}
+.closing:before,.closing:after{content:"";position:absolute;border-radius:50%;border:1px solid rgba(255,255,255,.10);width:520px;height:520px}
+.closing:before{left:-270px;top:-250px}.closing:after{right:-240px;bottom:-320px}
+.closing-inner{position:relative;z-index:1;max-width:930px;margin:auto;padding:0 24px}
+.closing .section-num{color:#dfbd84}
+.closing h2{margin:10px auto 24px;max-width:840px}
+.closing p{font-size:20px;line-height:1.7;color:rgba(249,244,234,.82);margin:0 auto;max-width:860px}
+footer{padding:28px 0;text-align:center;color:var(--muted);font-size:13px}
+.reveal{opacity:0;transform:translateY(16px);transition:.6s ease}.reveal.show{opacity:1;transform:none}
+
+@media(max-width:980px){
+  .nav-links{display:none}
+  .hero-grid,.section-head,.home-base{grid-template-columns:1fr}
+  .hero-orbit{min-height:430px}
+  .mind-branches{grid-template-columns:1fr;gap:40px}.mind-branches:before{display:none}.mind-branch:before{top:-40px;height:40px}
+  .cycle-grid{grid-template-columns:1fr 1fr}.cycle-step:not(:last-child):after{display:none}
+}
+@media(max-width:640px){
+  .shell{padding:0 18px}.nav-inner{height:64px}.nav-action{display:none}.hero{padding:62px 0 54px}h1{font-size:58px}
+  .hero-orbit{min-height:390px;border-radius:30px}.o3{width:340px;height:340px}.o2{width:245px;height:245px}.o1{width:155px;height:155px}.orbit-core{width:146px;height:146px;font-size:14px}.orbit-tag{font-size:10px;padding:7px 9px}.ot1{left:5%;top:14%}.ot2{right:4%;top:24%}.ot3{left:3%;bottom:24%}.ot4{right:3%;bottom:18%}
+  section{padding:70px 0}.mindmap-wrap{padding:22px 16px}.node-grid,.mini-grid,.cycle-grid{grid-template-columns:1fr}
+  summary{grid-template-columns:42px 1fr;padding:19px 56px 19px 18px}.acc-num{width:36px;height:36px}.acc-title{font-size:18px}.acc-body{padding:0 20px 22px 20px}summary:after{right:16px;top:19px}
+  .architecture{padding:24px 20px}.closing{padding:84px 0}
+}
+</style>
+</head>
+<body>
+<nav>
+  <div class="shell nav-inner">
+    <a class="brand" href="index.html"><span class="brand-dot"></span>Thảo · My Life Picture 2026</a>
+    <div class="nav-links" aria-label="Điều hướng Tâm thức">
+      <a href="#tong-quan">Tổng quan</a>
+      <a href="#loi-tam-thuc">Lõi tâm thức</a>
+      <a href="#tam-ly">Tâm lý</a>
+      <a href="#vong-truong-thanh">Vòng trưởng thành</a>
+    </div>
+    <button class="nav-action" id="toggleAll" type="button">Mở tất cả</button>
+  </div>
+</nav>
+
+<main>
+<header class="hero" id="tong-quan">
+  <div class="shell">
+    <div class="eyebrow">01 · Tâm thức của Thảo</div>
+    <div class="hero-grid">
+      <div>
+        <h1>Mình sống<br><em>từ đâu?</em></h1>
+        <p class="hero-lead">Tâm thức là tầng gốc của My Life Picture — hệ điều hành bên trong định hình cách mình nhìn Life, lựa chọn, hiện diện và trưởng thành.</p>
+        <p class="hero-note">Với mình, Tâm thức có hai phần: <strong>Lõi tâm thức</strong> — phần sâu nhất mình lựa chọn sống từ đó; và <strong>Tâm lý</strong> — đời sống cảm xúc, nỗi sợ và Game giúp mình tiếp tục hiểu và mở rộng chính mình.</p>
+      </div>
+      <div class="hero-orbit" aria-label="Tổng quan Tâm thức">
+        <div class="orbit o1"></div><div class="orbit o2"></div><div class="orbit o3"></div>
+        <div class="orbit-core">TÂM THỨC<br><small>Life OS</small></div>
+        <div class="orbit-tag ot1">Essence</div>
+        <div class="orbit-tag ot2">Ý nguyện</div>
+        <div class="orbit-tag ot3">Giá trị & Phẩm chất</div>
+        <div class="orbit-tag ot4">Cảm xúc · Fear · Game</div>
+        <div class="orbit-tag ot5">Success Codes</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="mindmap">
+  <div class="shell">
+    <div class="section-head reveal">
+      <div><div class="section-num">Bản đồ tổng thể</div><h2>Mindmap Tâm thức</h2></div>
+      <p class="section-intro">Một cấu trúc để thấy toàn cảnh trước khi đi vào chi tiết: từ phần mình vốn có, cách mình lựa chọn sống, đến những chuyển động tâm lý và vòng trưởng thành.</p>
+    </div>
+    <div class="mindmap-wrap reveal">
+      <div class="mind-root"><strong>TÂM THỨC</strong><span>Mình là ai · Mình sống từ đâu · Mình trưởng thành thế nào</span></div>
+      <div class="mind-branches">
+        <article class="mind-branch">
+          <div class="branch-head"><div><div class="branch-title">1.1 · Lõi tâm thức</div><div class="branch-sub">Phần sâu nhất định hướng cách mình sống</div></div></div>
+          <div class="node-grid">
+            <a class="node" href="#essence"><strong>Essence</strong><span>Phần vốn có</span></a>
+            <a class="node" href="#y-nguyen"><strong>Ý nguyện</strong><span>Hướng Life chuyển động</span></a>
+            <a class="node" href="#niem-tin"><strong>Niềm tin</strong><span>Cách mình nhìn mình & Life</span></a>
+            <a class="node" href="#gia-tri"><strong>Giá trị</strong><span>Tiêu chuẩn lựa chọn</span></a>
+            <a class="node" href="#pham-chat"><strong>Phẩm chất</strong><span>Chất mình mang vào Life</span></a>
+            <a class="node" href="#success-code"><strong>Success Codes</strong><span>Nguyên tắc hiện thực hóa</span></a>
+          </div>
+        </article>
+        <article class="mind-branch">
+          <div class="branch-head"><div><div class="branch-title">1.2 · Tâm lý</div><div class="branch-sub">Đời sống bên trong khi mình bước vào Life</div></div></div>
+          <div class="node-grid">
+            <a class="node psy" href="#cam-xuc"><strong>Cảm xúc nền</strong><span>Home base · điểm cân bằng</span></a>
+            <a class="node psy" href="#noi-so"><strong>Nỗi sợ</strong><span>Vùng chưa đủ an toàn</span></a>
+            <a class="node psy" href="#game"><strong>Game</strong><span>Cơ chế phòng vệ</span></a>
+            <a class="node psy" href="#vong-truong-thanh"><strong>Vòng trưởng thành</strong><span>Nhìn thấy → lựa chọn mới</span></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="loi-tam-thuc">
+  <div class="shell">
+    <div class="section-head reveal">
+      <div><div class="section-num">1.1 · Lõi tâm thức</div><h2>Mình sống từ phần nào bên trong?</h2></div>
+      <p class="section-intro">Lõi tâm thức không phải danh sách những điều “nên có”. Nó giúp mình biết: <strong>mình vốn là ai → mình tin điều gì → điều gì quan trọng → mình muốn hiện diện thế nào → và vận hành ra sao để tất cả trở thành đời sống thật.</strong></p>
+    </div>
+
+    <div class="accordion-list reveal">
+      <details class="accordion" id="essence" open>
+        <summary><div class="acc-num">01</div><div><div class="acc-title">Essence</div><div class="acc-sub">Phần vốn có · Trí tuệ · Yêu thương · Tự do · Sống động</div></div></summary>
+        <div class="acc-body">
+          <p class="keyline">Mình sinh ra với Essence.</p>
+          <div class="chips"><span class="chip">Trí tuệ</span><span class="chip">Yêu thương</span><span class="chip">Tự do</span><span class="chip">Sống động</span></div>
+          <p>Essence không phải thứ mình phải tạo ra hay đạt tới. Trưởng thành là quá trình ngày càng nhìn rõ những gì che phủ nó — nỗi sợ, Game, những mô thức cũ — để phần vốn có được biểu hiện đầy đủ hơn trong đời sống.</p>
+          <div class="quote">Bên dưới những lớp phòng vệ, Essence vẫn ở đó.</div>
+        </div>
+      </details>
+
+      <details class="accordion" id="y-nguyen">
+        <summary><div class="acc-num">02</div><div><div class="acc-title">Ý nguyện</div><div class="acc-sub">Trưởng thành × Support Life</div></div></summary>
+        <div class="acc-body">
+          <p class="keyline">Mình muốn sống sâu hơn, hiểu rộng hơn, có năng lực hơn và ngày càng tự do hơn.</p>
+          <p><strong>Mình bước vào Life để trưởng thành.</strong><br>Mình trưởng thành để Support Life.<br>Và qua những Life mình chạm tới, mình tiếp tục hiểu và mở rộng chính mình.</p>
+          <p>Với mình, Trưởng thành và Support Life là một vòng tròn hai chiều: Support Life giúp mình nhìn thấy mình; sự trưởng thành của mình lại giúp mình Support Life sâu hơn.</p>
+        </div>
+      </details>
+
+      <details class="accordion" id="niem-tin">
+        <summary><div class="acc-num">03</div><div><div class="acc-title">Niềm tin gốc</div><div class="acc-sub">Cách mình nhìn bản thân và nhìn Life</div></div></summary>
+        <div class="acc-body">
+          <div class="mini-grid">
+            <article class="mini-card"><h4>Essence vốn có</h4><p>Mỗi Life đều mang trong mình trí tuệ, yêu thương, tự do và sức sống. Có lúc Essence chỉ đang bị che phủ.</p></article>
+            <article class="mini-card"><h4>Tin vào mình & tin vào Life</h4><p>Life có thử thách; mình có khả năng ở lại với chính mình, đối diện, học hỏi và trưởng thành qua thử thách.</p></article>
+            <article class="mini-card"><h4>Mỗi Life có hành trình riêng</h4><p>Mình có thể yêu thương và đồng hành, nhưng không thể sống thay hay trưởng thành thay một Life khác.</p></article>
+            <article class="mini-card"><h4>Nuôi từ gốc</h4><p>Kết quả bền vững là hệ quả của những nền tảng được nuôi đủ lâu. Mình đầu tư vào nguyên nhân thay vì ép outcome.</p></article>
+          </div>
+          <div class="flow-box"><div class="flow"><span>Essence vốn có</span><b>→</b><span>Tin mình & Life</span><b>→</b><span>Tôn trọng hành trình riêng</span><b>→</b><span>Nuôi gốc thay vì ép quả</span></div></div>
+          <div class="quote">Mình không cần Life luôn dễ. Mình cần ngày càng có khả năng sống được với Life như nó đang là.</div>
+        </div>
+      </details>
+
+      <details class="accordion" id="gia-tri">
+        <summary><div class="acc-num">04</div><div><div class="acc-title">Giá trị cốt lõi</div><div class="acc-sub">Những điều đủ quan trọng để dùng làm tiêu chuẩn lựa chọn</div></div></summary>
+        <div class="acc-body">
+          <div class="mini-grid">
+            <article class="mini-card"><h4>Tự chủ</h4><p>Đứng trên đôi chân của mình, làm chủ lựa chọn và tôn trọng quyền lựa chọn của người khác.</p></article>
+            <article class="mini-card"><h4>Trung thực & nhất quán</h4><p>Dám nhìn điều mình thật sự nghĩ, cảm, muốn và sợ; để điều mình tin, nói và làm ngày càng gần nhau.</p></article>
+            <article class="mini-card"><h4>Yêu thương</h4><p>Không bỏ rơi mình để đổi lấy kết nối; đồng cảm và nâng đỡ Life mà không kiểm soát hay gánh thay.</p></article>
+            <article class="mini-card"><h4>Trưởng thành</h4><p>Không đóng khung bản thân; tiếp tục học, update và góp phần để Life xung quanh nhìn rõ, tự chủ và vận hành tốt hơn.</p></article>
+          </div>
+          <div class="flow-box"><div class="flow"><span>Đứng được</span><b>→</b><span>Sống thật</span><b>→</b><span>Yêu được</span><b>→</b><span>Cùng trưởng thành</span></div></div>
+        </div>
+      </details>
+
+      <details class="accordion" id="pham-chat">
+        <summary><div class="acc-num">05</div><div><div class="acc-title">Phẩm chất cốt lõi</div><div class="acc-sub">Mình muốn hiện diện như thế nào khi bước vào Life?</div></div></summary>
+        <div class="acc-body">
+          <div class="chips"><span class="chip">Dũng cảm</span><span class="chip">Cởi mở</span><span class="chip">Tôn trọng sự sống</span><span class="chip">Yêu thương</span><span class="chip">Sống động</span></div>
+          <div class="mini-grid">
+            <article class="mini-card"><h4>Dũng cảm</h4><p>Dám bước vào điều chưa biết, đối diện điều thật và hành động dù vẫn còn nỗi sợ.</p></article>
+            <article class="mini-card"><h4>Cởi mở</h4><p>Không vội kết luận; sẵn sàng nghe, học và thừa nhận mình có thể chưa biết.</p></article>
+            <article class="mini-card"><h4>Tôn trọng sự sống</h4><p>Để mỗi Life được có lịch sử, giới hạn, nhịp phát triển và quyền lựa chọn riêng.</p></article>
+            <article class="mini-card"><h4>Yêu thương</h4><p>Quan tâm, đồng cảm; có thể lắng nghe, nói sự thật, đặt ranh giới và ở lại cùng Life trong lúc khó.</p></article>
+            <article class="mini-card"><h4>Sống động</h4><p>Có mặt, cảm nhận, khám phá, chơi, yêu, tạo ra và tận hưởng — không biến trưởng thành thành project sửa mình vô tận.</p></article>
+          </div>
+          <div class="flow-box"><div class="flow"><span>Dũng cảm để bước vào</span><b>→</b><span>Cởi mở để tiếp nhận</span><b>→</b><span>Tôn trọng để gặp Life</span><b>→</b><span>Yêu thương để kết nối</span><b>→</b><span>Sống động để tham dự</span></div></div>
+        </div>
+      </details>
+
+      <details class="accordion" id="success-code">
+        <summary><div class="acc-num">06</div><div><div class="acc-title">Mã thành công · Success Codes</div><div class="acc-sub">Bộ nguyên tắc giúp mình hiện thực hóa Tâm thức vào đời sống</div></div></summary>
+        <div class="acc-body">
+          <div class="mini-grid">
+            <article class="mini-card"><h4>Be → Do → Have</h4><p>Tập trung vào con người mình muốn trở thành; không dùng kết quả để quyết định mình là ai.</p></article>
+            <article class="mini-card"><h4>Tự chủ & Chịu trách nhiệm</h4><p>Cuộc sống của mình là trách nhiệm của mình. Tự lựa chọn, tự đứng và xây năng lực để có thêm lựa chọn.</p></article>
+            <article class="mini-card"><h4>Nuôi gốc · Chọn dài hạn</h4><p>Xây tâm thức, năng lực, sức khỏe, mối quan hệ, hệ thống và tài sản — những thứ có thể sinh ra kết quả nhiều lần.</p></article>
+            <article class="mini-card"><h4>Show Up</h4><p>Không cần hoàn hảo hay hết sợ mới bước vào. Có mặt, thử, nói điều cần nói, làm điều cần làm và ở lại khi khó.</p></article>
+          </div>
+          <div class="flow-box"><div class="flow"><span>BE</span><b>→</b><span>OWN</span><b>→</b><span>BUILD</span><b>→</b><span>SHOW UP</span></div></div>
+          <p><strong>Trải nghiệm → Hạch toán → Update → Trưởng thành → Be ở một tầng mới.</strong></p>
+        </div>
+      </details>
+    </div>
+
+    <div class="architecture reveal">
+      <div class="kicker">Lõi tâm thức · một dòng</div>
+      <div class="arch-flow"><span>Essence</span><b>→</b><span>Ý nguyện</span><b>→</b><span>Niềm tin</span><b>→</b><span>Giá trị</span><b>→</b><span>Phẩm chất</span><b>→</b><span>Success Codes</span><b>→</b><span>Đời sống</span></div>
+      <p>Tin vào Essence → đứng trên đôi chân mình → sống thật → bước vào Life bằng dũng cảm và cởi mở → gặp Life bằng tôn trọng và yêu thương → xây từ gốc → có mặt và sống → trưởng thành → Support Life sâu hơn.</p>
+    </div>
+  </div>
+</section>
+
+<section class="psychology" id="tam-ly">
+  <div class="shell">
+    <div class="section-head reveal">
+      <div><div class="section-num">1.2 · Tâm lý</div><h2>Điểm cân bằng bên trong</h2></div>
+      <p class="section-intro">Ở trung tâm đời sống tâm lý của mình là một <strong>nền cảm xúc tương đối ổn định</strong> — như điểm cân bằng mà một hệ luôn có xu hướng trở về sau dao động. Nỗi sợ và Game xuất hiện khi Life chạm vào những vùng chưa đủ an toàn; chúng giúp mình thấy điều còn cần được hiểu và trưởng thành.</p>
+    </div>
+
+    <div class="home-base reveal">
+      <article class="home-card">
+        <div class="kicker">Home base</div>
+        <h3>Không phải không còn dao động.</h3>
+        <p>Mà là có một nền bên trong đủ vững để mình luôn có thể quay về — rồi từ đó lại mở ra với Life.</p>
+      </article>
+      <div class="spring-card" aria-label="Ẩn dụ điểm cân bằng">
+        <div class="spring-line"></div>
+        <div class="spring-equilibrium">CẢM XÚC<br>NỀN</div>
+        <div class="spring-label">Life có thể kéo mình lệch khỏi tâm; hệ bên trong vẫn có xu hướng tìm đường trở về.</div>
+      </div>
+    </div>
+
+    <div class="accordion-list reveal">
+      <details class="accordion" id="cam-xuc" open>
+        <summary><div class="acc-num">01</div><div><div class="acc-title">Cảm xúc nền</div><div class="acc-sub">Trạng thái cân bằng mình có xu hướng trở về</div></div></summary>
+        <div class="acc-body">
+          <p>Cảm xúc nền là <strong>chất sống bên trong tương đối ổn định</strong>, không hoàn toàn phụ thuộc vào việc Life bên ngoài có diễn ra đúng như mình mong muốn hay không.</p>
+          <div class="mini-grid">
+            <article class="mini-card"><h4>Bình an</h4><p>Một nơi bên trong đủ an toàn để mình ở lại với chính mình, kể cả khi Life đang biến động.</p></article>
+            <article class="mini-card"><h4>Kết nối</h4><p>Thật sự chạm vào bản thân, con người, công việc, thiên nhiên và những điều mình tham dự — không chỉ ở cạnh mà thực sự có mặt.</p></article>
+            <article class="mini-card"><h4>Tò mò</h4><p>Tiếp tục mở ra trước điều chưa biết, thay vì khép lại bằng sợ hãi hay một kết luận quá sớm.</p></article>
+            <article class="mini-card"><h4>Cảm hứng</h4><p>Cảm nhận Life vẫn còn rộng, còn nhiều khả năng và những vùng đáng để khám phá.</p></article>
+            <article class="mini-card"><h4>Tận hưởng</h4><p>Không chỉ giải quyết cuộc sống, mà còn biết cảm nhận, chơi, yêu và thật sự sống trong đó.</p></article>
+          </div>
+          <div class="flow-box"><div class="flow"><span>Bình an</span><b>→</b><span>Kết nối</span><b>→</b><span>Tò mò</span><b>→</b><span>Cảm hứng</span><b>→</b><span>Tận hưởng</span></div></div>
+          <div class="quote">Cảm xúc nền là home base của mình — nơi mình sống từ đó và nơi mình có thể quay về.</div>
+        </div>
+      </details>
+
+      <details class="accordion" id="noi-so">
+        <summary><div class="acc-num">02</div><div><div class="acc-title">Nỗi sợ</div><div class="acc-sub">Tín hiệu từ những vùng chưa đủ an toàn</div></div></summary>
+        <div class="acc-body">
+          <p>Nỗi sợ xuất hiện khi Life chạm vào điều mình rất coi trọng, hoặc một vùng bên trong vẫn còn mong manh.</p>
+          <div class="chips"><span class="chip gold">Bị bỏ rơi / Không được lựa chọn</span><span class="chip gold">Không đủ tốt / Bị coi thường</span><span class="chip gold">Thất bại / Mất kiểm soát</span><span class="chip gold">Thiếu thốn / Mất an toàn</span></div>
+          <p>Nỗi sợ không phải kẻ thù của sự bình an. Nó chỉ đang nói: <strong>“Có một phần bên trong đang cần được nhìn thấy.”</strong></p>
+          <p>Khi mình đủ bình an để không chạy khỏi nỗi sợ, nó trở thành dữ liệu: điều gì đang thật sự quan trọng, mình thiếu cảm giác an toàn ở đâu, và phần nào còn cần được nuôi lớn.</p>
+          <div class="quote">Nỗi sợ không chỉ chỉ ra nơi mình yếu. Nó còn chỉ ra nơi mình đang được mời gọi để trưởng thành.</div>
+        </div>
+      </details>
+
+      <details class="accordion" id="game">
+        <summary><div class="acc-num">03</div><div><div class="acc-title">Game</div><div class="acc-sub">Cách mình bảo vệ bản thân khi nỗi sợ được kích hoạt</div></div></summary>
+        <div class="acc-body">
+          <p>Game là những chiến lược tâm lý mình từng học để tránh đau, giữ kết nối hoặc tạo cảm giác an toàn. <strong>Game không phải con người thật của mình.</strong></p>
+          <div class="mini-grid">
+            <article class="mini-card"><h4>Làm vừa lòng / Gánh cảm xúc</h4><p>Để tránh mất kết nối.</p></article>
+            <article class="mini-card"><h4>Chứng minh giá trị / So sánh</h4><p>Để tránh cảm giác mình không đủ tốt.</p></article>
+            <article class="mini-card"><h4>Kiểm soát / Cầu toàn</h4><p>Để giảm bất định và nguy cơ thất bại.</p></article>
+            <article class="mini-card"><h4>Rút lui / Ngắt kết nối</h4><p>Để tránh bị tổn thương trước.</p></article>
+            <article class="mini-card"><h4>Lý giải quá mức</h4><p>Dùng trí óc để không phải ở lại quá lâu với cảm xúc khó.</p></article>
+          </div>
+          <div class="quote">Thay vì hỏi “Làm sao để bỏ Game?”, mình học cách hỏi: “Phần nào trong mình đang cần được bảo vệ?”</div>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section id="vong-truong-thanh">
+  <div class="shell">
+    <div class="section-head reveal">
+      <div><div class="section-num">1.3 · Essence × Tâm lý</div><h2>Vòng trưởng thành</h2></div>
+      <p class="section-intro">Cảm xúc nền là nơi Essence được cảm nhận thành trạng thái sống. Nỗi sợ và Game giúp mình nhìn thấy những phần đang che phủ sự ổn định đó. Khi mình bước vào chúng bằng Essence và Success Codes, mình không chỉ xử lý một vấn đề — mình trưởng thành.</p>
+    </div>
+
+    <div class="cycle-wrap reveal">
+      <div class="cycle-grid">
+        <div class="cycle-step"><span class="n">01</span><strong>Cảm xúc nền<br>vững</strong></div>
+        <div class="cycle-step"><span class="n">02</span><strong>Life chạm vùng<br>nhạy cảm</strong></div>
+        <div class="cycle-step"><span class="n">03</span><strong>Nỗi sợ & Game<br>xuất hiện</strong></div>
+        <div class="cycle-step"><span class="n">04</span><strong>Nhận biết · Essence<br>· Success Code</strong></div>
+        <div class="cycle-step"><span class="n">05</span><strong>Lựa chọn mới<br>· Trưởng thành</strong></div>
+      </div>
+      <div class="cycle-return">↺ <b>Cảm xúc nền vững hơn</b> · bình an sâu hơn · kết nối thật hơn · capacity lớn hơn để bước tiếp vào Life</div>
+    </div>
+
+    <div class="quote reveal" style="margin-top:30px">Không phải: <strong>hết sợ → mới bình an.</strong><br>Mà là: <strong>có đủ bình an để đi vào nỗi sợ → nhìn thấy Game → hiểu mình sâu hơn → có lựa chọn mới → trưởng thành → bình an trở nên sâu hơn.</strong></div>
+  </div>
+</section>
+
+<section class="closing">
+  <div class="closing-inner reveal">
+    <div class="section-num">Tâm thức · một vòng sống</div>
+    <h2>Mình không tìm cách trở thành một người không còn Nỗi sợ hay Game.</h2>
+    <p>Mình muốn có một nền bên trong đủ vững để có thể nhìn thấy chúng, học từ chúng và vẫn tiếp tục sống — <strong>bình an hơn, kết nối hơn và sống động hơn.</strong></p>
+  </div>
+</section>
+</main>
+
+<footer><div class="shell">My Life Picture 2026 · Thảo · 1. Tâm thức</div></footer>
+
+<script>
+const allDetails=[...document.querySelectorAll('details.accordion')];
+const toggleAll=document.getElementById('toggleAll');
+let expanded=false;
+if(toggleAll){
+  toggleAll.addEventListener('click',()=>{
+    expanded=!expanded;
+    allDetails.forEach(d=>d.open=expanded);
+    toggleAll.textContent=expanded?'Thu gọn':'Mở tất cả';
+  });
+}
+
+const revealIO=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')});
+},{threshold:.10});
+document.querySelectorAll('.reveal').forEach(el=>revealIO.observe(el));
+
+const navLinks=[...document.querySelectorAll('.nav-links a')];
+const sections=['tong-quan','loi-tam-thuc','tam-ly','vong-truong-thanh'].map(id=>document.getElementById(id)).filter(Boolean);
+const spyIO=new IntersectionObserver(entries=>{
+  entries.forEach(entry=>{
+    if(entry.isIntersecting){
+      navLinks.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+entry.target.id));
+    }
+  });
+},{rootMargin:'-35% 0px -55% 0px',threshold:0});
+sections.forEach(s=>spyIO.observe(s));
+
+// Open the relevant accordion when a mindmap node is clicked.
+document.querySelectorAll('.node[href^="#"]').forEach(node=>{
+  node.addEventListener('click',()=>{
+    const target=document.querySelector(node.getAttribute('href'));
+    if(target && target.tagName==='DETAILS') target.open=true;
+  });
+});
+</script>
+</body>
+</html>
