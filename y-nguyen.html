@@ -34,7 +34,17 @@ iframe{display:block;width:100%;height:100%;border:0;background:var(--bg)}
   </div>
 </nav>
 <div class="frame-wrap">
-  <iframe src="y-nguyen-content.html" title="1.1.1 Ý nguyện của Thảo" loading="eager"></iframe>
+  <iframe id="detailFrame" src="y-nguyen-content.html" title="1.1.1 Ý nguyện của Thảo" loading="eager"></iframe>
 </div>
+<script>
+const frame=document.getElementById('detailFrame');
+frame.addEventListener('load',()=>{
+  try{
+    const doc=frame.contentDocument;
+    const legacyNav=doc && doc.querySelector('nav');
+    if(legacyNav) legacyNav.style.display='none';
+  }catch(e){}
+});
+</script>
 </body>
 </html>
