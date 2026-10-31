@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f5f1e9">
+<meta name="description" content="Hành trình niềm tin vào Essence của Thảo: từ bất định, gồng gánh và chứng minh đến nhận biết, yêu thương, tự chủ và kiến tạo giá trị.">
+<title>Trải nghiệm · Niềm tin vào Essence — Thảo MLP 2026</title>
+<style>
+:root{
+ --bg:#f5f1e9;--paper:#fffdf8;--ink:#17383d;--muted:#657d7c;--teal:#1f6871;
+ --teal2:#2e8d99;--soft:#dfeff1;--gold:#c59a58;--goldsoft:#f4e9d8;
+ --rose:#f4e5e1;--line:rgba(23,56,61,.14);--shadow:0 22px 65px rgba(25,61,67,.08);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:110px}
+body{margin:0;color:var(--ink);background:var(--bg);font:16px/1.7 "Aptos","Segoe UI",Arial,Helvetica,sans-serif}
+a{color:inherit;text-decoration:none}
+button{font:inherit}
+.shell{max-width:1140px;margin:auto;padding:0 28px}
+.topnav{position:sticky;top:0;z-index:99;background:rgba(245,241,233,.96);backdrop-filter:blur(15px);border-bottom:1px solid var(--line)}
+.navrow{min-height:72px;display:flex;align-items:center;gap:20px;justify-content:space-between}
+.brand{font-size:12px;font-weight:850;letter-spacing:.09em;color:var(--teal);text-transform:uppercase;white-space:nowrap}
+.tabs{display:flex;gap:7px;overflow:auto;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{white-space:nowrap;flex:0 0 auto;border:1px solid var(--line);border-radius:100px;padding:7px 11px;font-size:12px;font-weight:800;color:var(--muted);background:rgba(255,253,248,.84)}
+.tab:hover{color:var(--teal);border-color:var(--teal2)}
+.tab.active{background:var(--teal);color:#fff;border-color:var(--teal)}
+.tab.child{border-style:dashed}
+.hero{padding:85px 0 82px;position:relative;overflow:hidden;background:radial-gradient(circle at 84% 0%,rgba(197,154,88,.19),transparent 32%),radial-gradient(circle at 6% 20%,rgba(46,141,153,.13),transparent 34%),var(--bg)}
+.hero:before{content:"";position:absolute;right:-140px;bottom:-190px;width:490px;height:490px;border:1px solid rgba(197,154,88,.17);border-radius:50%;box-shadow:0 0 0 78px rgba(197,154,88,.055),0 0 0 160px rgba(197,154,88,.045);pointer-events:none}
+.kicker{font-size:12px;font-weight:900;letter-spacing:.19em;text-transform:uppercase;color:var(--teal)}
+.hero-grid{display:grid;grid-template-columns:1.12fr .88fr;gap:50px;align-items:center}
+h1,h2,h3,.quote-strong{font-family:Georgia,"Times New Roman",serif}
+h1{font-weight:500;font-size:clamp(48px,6.9vw,91px);letter-spacing:-.055em;line-height:1.04;margin:20px 0 24px}
+h1 em{font-style:normal;color:var(--teal)}
+.lead{font-size:clamp(18px,2.1vw,23px);line-height:1.57;color:#406366;max-width:740px;margin:0}
+.hero-note{display:flex;flex-wrap:wrap;gap:9px;margin-top:29px}
+.pill{font-size:12px;font-weight:800;border:1px solid var(--line);border-radius:100px;padding:7px 12px;background:rgba(255,253,248,.8);color:var(--teal)}
+.hero-card{padding:36px;border-radius:30px;background:linear-gradient(150deg,#1e626b,#15444b);color:#fff;box-shadow:0 25px 65px rgba(26,83,91,.23);position:relative}
+.hero-card:before{content:"✦";color:#eacb92;position:absolute;right:26px;top:11px;font-size:40px}
+.hero-card small{display:block;color:#e5c994;letter-spacing:.16em;text-transform:uppercase;font-weight:850;font-size:11px}
+.hero-card p{font-family:Georgia,"Times New Roman",serif;font-size:clamp(24px,2.65vw,34px);line-height:1.4;margin:16px 0 24px}
+.hero-card span{color:#b6d8d8;font-size:13px}
+.section{padding:88px 0;border-top:1px solid var(--line)}
+.head{display:grid;grid-template-columns:.83fr 1.17fr;gap:40px;align-items:end;margin-bottom:34px}
+.eyebrow{font-size:12px;color:var(--teal);font-weight:900;letter-spacing:.14em;text-transform:uppercase}
+h2{font-size:clamp(34px,4.6vw,55px);line-height:1.1;letter-spacing:-.04em;margin:10px 0 0;font-weight:500}
+.intro{font-size:18px;color:#526e70;margin:0}
+.story{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+.story-card{padding:25px;border-radius:23px;border:1px solid var(--line);background:var(--paper)}
+.story-card:nth-child(2){background:#f9ede6}.story-card:nth-child(3){background:#eaf3f1}
+.story-card strong{color:var(--teal);font-size:14px;letter-spacing:.07em}
+.story-card h3{font-size:25px;margin:9px 0;line-height:1.24}
+.story-card p{font-size:15px;color:#526c6e;margin:0}
+.story-end{margin-top:22px;padding:23px 28px;background:var(--goldsoft);border-left:3px solid var(--gold);border-radius:0 18px 18px 0;font-size:18px;color:#4f5d56}
+.roadmap-section{background:linear-gradient(180deg,#f0f3ec 0%,#f5f1e9 100%)}
+.timeline{position:relative;margin:0;padding:10px 0 5px;list-style:none}
+.timeline:before{content:"";position:absolute;top:30px;bottom:38px;left:50%;width:3px;transform:translateX(-50%);background:linear-gradient(180deg,var(--gold),var(--teal2));border-radius:5px}
+.step{width:50%;position:relative;padding:6px 54px 28px 0}
+.step:nth-child(even){margin-left:50%;padding:6px 0 28px 54px}
+.step:before{content:"";position:absolute;top:34px;right:-10px;width:17px;height:17px;border:3px solid var(--paper);border-radius:50%;background:var(--gold);z-index:2;box-shadow:0 0 0 3px rgba(197,154,88,.25)}
+.step:nth-child(even):before{right:auto;left:-10px;background:var(--teal2)}
+.step-card{padding:25px 27px;border-radius:25px;background:var(--paper);border:1px solid var(--line);box-shadow:var(--shadow)}
+.step:nth-child(2) .step-card{background:#fff8f4}
+.step:nth-child(3) .step-card{background:#f1f7f5}
+.step:nth-child(4) .step-card{background:#eff5f2}
+.step:nth-child(5) .step-card{background:#f8f2e6}
+.step-label{display:block;font-size:12px;font-weight:900;color:var(--teal);text-transform:uppercase;letter-spacing:.12em}
+.step h3{font-size:28px;line-height:1.2;margin:8px 0 10px;font-weight:500}
+.step p{font-size:15px;color:#506b6c;margin:0}
+.step .echo{margin-top:14px;padding-top:12px;border-top:1px solid var(--line);font-size:14px;font-weight:750;color:var(--teal)}
+.table-wrap{overflow:auto;border-radius:25px;border:1px solid var(--line);box-shadow:var(--shadow)}
+table{border-collapse:collapse;width:100%;background:var(--paper);min-width:630px}
+th{text-align:left;background:#1d646b;color:#fff;padding:16px 20px;font-size:13px;letter-spacing:.04em}
+th:first-child{width:19%}td{border-top:1px solid var(--line);padding:18px 20px;vertical-align:top;font-size:15px;color:#416164}
+td:first-child{font-weight:850;color:var(--teal);background:rgba(223,239,241,.29)}
+td:nth-child(2){background:rgba(244,229,225,.28)}
+td:nth-child(3){background:rgba(223,239,241,.3)}
+.fine{color:var(--muted);font-size:13px;margin-top:16px}
+.cap-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}
+.cap{border:1px solid var(--line);padding:26px 23px 24px;border-radius:24px;background:var(--paper)}
+.cap:nth-child(2){background:#fbefeb}.cap:nth-child(3){background:#eaf2ed}.cap:nth-child(4){background:#f9f0df}
+.cap-icon{display:grid;place-items:center;height:46px;width:46px;border-radius:50%;background:var(--soft);color:var(--teal);font-size:24px;margin-bottom:17px}
+.cap h3{font-size:24px;margin:0 0 9px;font-weight:500}
+.cap p{font-size:15px;color:#536b6a;margin:0}
+.bridge{padding:32px 34px;border-radius:26px;background:linear-gradient(130deg,#204f57,#2f7c82);color:#fff;display:grid;grid-template-columns:.8fr 1.2fr;gap:30px;align-items:center;margin-top:24px}
+.bridge h3{font-size:27px;line-height:1.2;margin:0}
+.bridge p{margin:0;color:#e4f1ed;font-size:17px}
+.trio{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+.trio article{padding:25px;border-radius:24px;background:var(--paper);border:1px solid var(--line)}
+.trio strong{color:var(--gold);font-size:12px;text-transform:uppercase;letter-spacing:.16em}
+.trio h3{margin:9px 0 11px;font-size:25px;font-weight:500}
+.trio p{margin:0;font-size:15px;color:#516c6d}
+.reflection{background:#e8f2ee}
+.prompts{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+.prompt{background:var(--paper);padding:22px 23px;border-radius:20px;border:1px solid var(--line);font-size:17px;color:#2d585d}
+.prompt b{display:block;margin-bottom:8px;font-size:12px;color:var(--gold);letter-spacing:.12em}
+.final{background:linear-gradient(135deg,#164249,#287981);color:#fff;text-align:center;padding:95px 0 105px}
+.final h2{margin:0 auto 20px;max-width:900px;line-height:1.18;font-size:clamp(36px,5.5vw,67px)}
+.final p{max-width:850px;margin:0 auto;color:#d4e9e6;font-size:18px}
+.final .subquote{display:block;margin:26px auto 0;color:#edca8c;font:italic 23px Georgia,"Times New Roman",serif}
+.final-link{display:inline-block;margin-top:35px;padding:11px 20px;border-radius:100px;border:1px solid rgba(255,255,255,.4);color:white;font-weight:750;font-size:14px}
+.final-link:hover{background:rgba(255,255,255,.12)}
+footer{padding:25px;text-align:center;color:var(--muted);font-size:12px}
+@media(max-width:900px){
+ .shell{padding:0 20px}.navrow{flex-direction:column;align-items:flex-start;padding:13px 0;gap:8px}
+ .tabs{max-width:100%;padding-bottom:1px}.hero-grid,.head,.bridge{grid-template-columns:1fr}
+ .hero{padding:55px 0}.hero-grid{gap:28px}
+ .section{padding:64px 0}.story,.trio,.prompts{grid-template-columns:1fr}
+ .cap-grid{grid-template-columns:1fr 1fr}
+ .timeline:before{left:18px}
+ .step,.step:nth-child(even){width:100%;padding:0 0 24px 50px;margin-left:0}
+ .step:before,.step:nth-child(even):before{left:8px;right:auto}
+}
+@media(max-width:560px){
+ .shell{padding:0 16px}h1{font-size:51px}
+ .lead{font-size:18px}.hero-card{padding:27px}
+ .step-card{padding:22px}.cap-grid{grid-template-columns:1fr}
+ .bridge{padding:24px}.section{padding:58px 0}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<nav class="topnav" aria-label="Điều hướng My Life Picture"><div class="shell navrow">
+ <a class="brand" href="overview.html">Thảo · My Life Picture 2026</a>
+ <div class="tabs">
+  <a class="tab" href="overview.html">0 · My Life Picture</a>
+  <a class="tab" href="index.html">1 · Tâm thức</a>
+  <a class="tab child" href="y-nguyen.html">1.1.1 · Ý nguyện</a>
+  <a class="tab active" href="niem-tin-essence.html" aria-current="page">Trải nghiệm · Essence</a>
+  <a class="tab" href="nhan-thuc.html">2 · Nhận thức</a>
+  <a class="tab" href="body.html">3 · Body</a>
+  <a class="tab" href="process.html">4 · Process</a>
+  <a class="tab" href="life-domains.html">5 · Life Domains</a>
+ </div>
+</div></nav>
+
+<main>
+<header class="hero" id="top"><div class="shell hero-grid">
+ <div>
+  <div class="kicker">MLP 2026 / Tâm thức / Trải nghiệm thực tế</div>
+  <h1>Niềm tin vào <em>Essence</em></h1>
+  <p class="lead">Hành trình từ nỗi sợ, gồng gánh và chứng minh đến nhận biết, ở lại với chính mình, tự chủ và kiến tạo cuộc sống từ những giá trị mình tin.</p>
+  <div class="hero-note"><a class="pill" href="#story">Trải nghiệm công việc ↓</a><a class="pill" href="#roadmap">Roadmap trưởng thành ↓</a><a class="pill" href="#practice">Thực hành mỗi ngày ↓</a></div>
+ </div>
+ <aside class="hero-card">
+  <small>Niềm tin mình đang thực hành</small>
+  <p>“Mình không cần chứng minh mình có giá trị. Mình lựa chọn yêu thương, tin tưởng và trưởng thành cùng chính mình.”</p>
+  <span>Essence không chỉ được nhớ đến khi khó khăn. Essence có mặt trong cách mình sống mỗi ngày.</span>
+ </aside>
+</div></header>
+
+<section class="section" id="story"><div class="shell">
+ <div class="head"><div><div class="eyebrow">01 / Trải nghiệm</div><h2>Khi cuộc sống bước ra khỏi vùng mình biết</h2></div>
+ <p class="intro">Sự thay đổi lãnh đạo trong công việc không chỉ đem đến những yêu cầu chuyên môn mới. Nó còn soi chiếu những nỗi sợ, cơ chế phòng vệ và cách mình từng tìm kiếm cảm giác an toàn.</p></div>
+ <div class="story">
+  <article class="story-card"><strong>BỐI CẢNH</strong><h3>Một giai đoạn bất định</h3><p>Khi sếp cũ rời đi, sếp mới chưa vào, mình không biết vai trò và tương lai công việc sẽ ra sao. Khi sếp mới đến, cách chất vấn số liệu và kỳ vọng quản trị cũng khác trước.</p></article>
+  <article class="story-card"><strong>PHẢN ỨNG CỦA EGO</strong><h3>Sợ rồi gồng lên</h3><p>Mình sợ bị thay thế, không đủ giỏi, không được công nhận, không có lựa chọn tốt hơn. Mình muốn chứng minh, gánh vác; đôi khi ấm ức, giận dỗi và muốn rút lui.</p></article>
+  <article class="story-card"><strong>ĐIỀU MÌNH NHÌN THẤY</strong><h3>Niềm tin còn điều kiện</h3><p>Trước đây mình tin khi mọi thứ quen thuộc và có thể kiểm soát. Khi đối diện điều chưa biết, nỗi sợ lại dễ trở thành động lực cho hành động.</p></article>
+ </div>
+ <div class="story-end"><strong>Bài học:</strong> Cam chịu, cố chứng minh hay phản kháng có thể là ba phản ứng khác nhau trước cùng một nỗi sợ. Mình muốn hiểu điều gì đang dẫn dắt mình, thay vì chỉ cố thay đổi biểu hiện bên ngoài.</div>
+</div></section>
+
+<section class="section roadmap-section" id="roadmap"><div class="shell">
+ <div class="head"><div><div class="eyebrow">02 / Roadmap</div><h2>Essence hiển lộ cùng hành trình trưởng thành</h2></div>
+ <p class="intro">Không phải Essence bỗng xuất hiện khi mình đã đủ trưởng thành. Mình dần nhận biết và để những phẩm chất ấy được thể hiện tự do, rõ ràng hơn qua từng trải nghiệm.</p></div>
+ <ol class="timeline">
+  <li class="step"><div class="step-card"><span class="step-label">Chặng 01 / Vùng quen thuộc</span><h3>Tin bằng tâm trí</h3><p>Mình an toàn khi hiểu, biết trước và có thể kiểm soát. Những điều chưa biết dễ bị nhìn như một mối đe dọa.</p><div class="echo">“Mình tin khi mọi thứ vẫn nằm trong vùng mình hiểu.”</div></div></li>
+  <li class="step"><div class="step-card"><span class="step-label">Chặng 02 / Va chạm</span><h3>Bất định & thử thách</h3><p>Thay đổi lãnh đạo và những chất vấn mới làm trỗi dậy nỗi sợ: bị bỏ rơi, bị thay thế, không đủ giỏi. Mình gồng, gánh, chứng minh hoặc phản kháng.</p><div class="echo">“Mình đang sợ mất đi điều gì?”</div></div></li>
+  <li class="step"><div class="step-card"><span class="step-label">Chặng 03 / Quay vào bên trong</span><h3>Nhận biết & không đồng nhất</h3><p>Mình nhìn thấy Ego và Essence, thấy cảm xúc, điểm mạnh và phần cần phát triển. Những sản phẩm trong quá khứ có giá trị ở bối cảnh của chúng, nhưng không phải là bản sắc mình cần bảo vệ.</p><div class="echo">“Mình thấy tất cả, nhưng không cần đồng nhất với bất kỳ điều gì.”</div></div></li>
+  <li class="step"><div class="step-card"><span class="step-label">Chặng 04 / Niềm tin thực hành</span><h3>Lựa chọn & ở lại với chính mình</h3><p>Mình không dằn vặt vì những phần chưa trưởng thành. Mình tôn trọng nỗi sợ, cởi mở lắng nghe, tin vào khả năng học hỏi và không quay lưng với bản thân khi sai hay chưa được công nhận.</p><div class="echo">“Mình lựa chọn yêu thương và đồng hành cùng chính mình.”</div></div></li>
+  <li class="step"><div class="step-card"><span class="step-label">Chặng 05 / Tiếp tục mở ra</span><h3>Tự chủ & kiến tạo</h3><p>Mình làm việc từ niềm yêu thích hệ thống và mong muốn tạo giá trị; cam kết với ý nguyện, chịu trách nhiệm đúng phần mình, bước vào vùng học hỏi và tiếp tục Support Life.</p><div class="echo">“Mình không sống để chứng minh. Mình sống để biểu hiện Essence.”</div></div></li>
+ </ol>
+</div></section>
+
+<section class="section" id="mirror"><div class="shell">
+ <div class="head"><div><div class="eyebrow">03 / Tấm gương quan sát</div><h2>Cùng một tình huống, hai nguồn động lực</h2></div>
+ <p class="intro">Không cần gắn nhãn mọi nỗi sợ là xấu. Mình học cách phân biệt: hành động đang được dẫn dắt chủ yếu bởi nhu cầu phòng vệ, hay bởi những giá trị mình lựa chọn?</p></div>
+ <div class="table-wrap"><table>
+  <thead><tr><th>Trải nghiệm</th><th>Khi nỗi sợ dẫn dắt</th><th>Khi lựa chọn từ Essence</th></tr></thead>
+  <tbody>
+  <tr><td>Sếp chất vấn</td><td>Mình phải chứng minh mình giỏi, mình đúng.</td><td>Mình tìm hiểu câu hỏi, kiểm chứng dữ liệu, nhận phản hồi và cải thiện giá trị phân tích.</td></tr>
+  <tr><td>Sản phẩm quá khứ</td><td>Mình phải bảo vệ để không bị phủ nhận.</td><td>Mình ghi nhận điều đã đóng góp, học từ giới hạn và tạo giải pháp phù hợp bối cảnh mới.</td></tr>
+  <tr><td>Vai trò và tương lai</td><td>Mình phải giữ bằng được, hoặc giận dỗi rời đi trước.</td><td>Mình đánh giá sự phù hợp, phát triển năng lực và chủ động lựa chọn.</td></tr>
+  <tr><td>Nỗ lực làm việc</td><td>Mình gánh hết để được công nhận.</td><td>Mình cam kết với giá trị, hợp tác, chịu trách nhiệm đúng phần và đặt ranh giới.</td></tr>
+  </tbody>
+ </table></div>
+ <p class="fine">Essence và Ego không phải hai nhãn để phán xét bản thân. Điều quan trọng là nhận biết, hiểu động lực và mở ra những lựa chọn có ý thức.</p>
+</div></section>
+
+<section class="section" id="capacities"><div class="shell">
+ <div class="head"><div><div class="eyebrow">04 / Năng lực của Essence</div><h2>Những khả năng vốn có, được thực hành mỗi ngày</h2></div>
+ <p class="intro">Essence không chỉ được diễn giải thành một niềm tin. Mình đang học cách trải nghiệm nó qua những năng lực rất cụ thể trong công việc và đời sống.</p></div>
+ <div class="cap-grid">
+  <article class="cap"><div class="cap-icon" aria-hidden="true">◉</div><h3>Nhận biết</h3><p>Thấy rõ cảm xúc, nỗi sợ, cách Ego phản ứng và điều mình thực sự muốn.</p></article>
+  <article class="cap"><div class="cap-icon" aria-hidden="true">♡</div><h3>Yêu thương</h3><p>Đón nhận toàn bộ con người mình, không tự dằn vặt và không bỏ rơi chính mình.</p></article>
+  <article class="cap"><div class="cap-icon" aria-hidden="true">↗</div><h3>Lựa chọn</h3><p>Đứng ở trục giá trị và ý nguyện, thay vì chỉ làm theo nỗi sợ hay mong muốn của người khác.</p></article>
+  <article class="cap"><div class="cap-icon" aria-hidden="true">✦</div><h3>Kiến tạo</h3><p>Học hỏi, thử nghiệm, trưởng thành và mang năng lực của mình để Support Life.</p></article>
+ </div>
+ <div class="bridge"><h3>Niềm tin không cần đợi đến khi hết sợ.</h3><p>Mình có thể đang lo lắng, chưa đủ giỏi hoặc chưa biết câu trả lời — và vẫn lựa chọn một hành động trung thực, yêu thương, cởi mở và có trách nhiệm.</p></div>
+</div></section>
+
+<section class="section" id="practice"><div class="shell">
+ <div class="head"><div><div class="eyebrow">05 / Tích hợp vào My Life Picture</div><h2>Ghi nhận quá khứ. Sống trong hiện tại. Mở ra tương lai.</h2></div>
+ <p class="intro">Mình không đồng nhất bản thân với một giai đoạn, một vai trò hay một sản phẩm. Điều mình giữ là những giá trị cốt lõi; cách mình đóng góp có thể tiếp tục thay đổi.</p></div>
+ <div class="trio">
+  <article><strong>Với quá khứ</strong><h3>Ghi nhận</h3><p>Trân trọng những gì mình đã học và đóng góp trong bối cảnh cũ. Thấy cả điều tốt lẫn giới hạn, không cần phủ nhận hay bảo vệ bằng mọi giá.</p></article>
+  <article><strong>Với hiện tại</strong><h3>Lựa chọn</h3><p>Tin tưởng, yêu thương, ở lại với mình. Làm việc từ niềm yêu thích, giữ sự trung thực, cam kết đúng phần trách nhiệm.</p></article>
+  <article><strong>Với tương lai</strong><h3>Mở rộng</h3><p>Cởi mở với thử thách mới, học năng lực mới, thay đổi cách làm và tạo những giá trị mới phù hợp với bản thân và tổ chức.</p></article>
+ </div>
+</div></section>
+
+<section class="section reflection" id="reflect"><div class="shell">
+ <div class="head"><div><div class="eyebrow">06 / Câu hỏi mang theo</div><h2>Mình đang thực hành niềm tin ra sao?</h2></div><p class="intro">Không cần câu trả lời đẹp. Chỉ cần thật với trải nghiệm đang diễn ra, rồi từ đó chọn một hành động nhỏ phù hợp hơn.</p></div>
+ <div class="prompts">
+  <div class="prompt"><b>NHẬN BIẾT</b>Hôm nay mình đang cố chứng minh, gồng gánh hoặc kiểm soát điều gì vì sợ?</div>
+  <div class="prompt"><b>YÊU THƯƠNG</b>Mình có thể ở lại với phần đang sợ ấy như thế nào, mà không phán xét bản thân?</div>
+  <div class="prompt"><b>LỰA CHỌN</b>Nếu đi từ giá trị và ý nguyện, mình muốn lựa chọn điều gì khác đi?</div>
+ </div>
+</div></section>
+
+<section class="final"><div class="shell">
+ <div class="eyebrow" style="color:#e7ca92;margin-bottom:16px">Điều mình lựa chọn mang theo</div>
+ <h2>Mình không sống để chứng minh.<br>Mình sống để biểu hiện Essence của mình.</h2>
+ <p>Mình nhìn thấy cả Essence và Ego, cả điều đã làm tốt và phần còn cần trưởng thành. Dù hoàn cảnh có thay đổi, mình vẫn lựa chọn tin tưởng, yêu thương và đồng hành cùng chính mình — để tiếp tục học hỏi, sáng tạo và Support Life.</p>
+ <span class="subquote">Essence không chỉ hiện diện trong thử thách. Essence hiện diện trong cách mình sống mỗi ngày.</span>
+ <a class="final-link" href="index.html">← Trở về Tâm thức của Thảo</a>
+</div></section>
+</main>
+<footer>Thảo · My Life Picture 2026 · Hành trình vẫn đang tiếp diễn</footer>
+</body>
+</html>
