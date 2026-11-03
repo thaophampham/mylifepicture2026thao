@@ -335,7 +335,7 @@ footer{padding:26px 0;text-align:center;color:var(--muted);font-size:12px}
   utterance.lang="vi-VN";utterance.rate=.97;utterance.pitch=1;
   const voices=synth.getVoices();const vi=voices.find(v=>/^vi[-_]/i.test(v.lang));if(vi)utterance.voice=vi;
   utterance.onend=()=>{reset();status.textContent="Đã nghe xong."};
-  utterance.onerror=()=>{reset();status.textContent="Không thể phát giọng đọc trên thiết bị này."};
+  utterance.onerror=(event)=>{if(event.error==="interrupted"||event.error==="canceled"){reset();return;}reset();status.textContent="Không thể phát giọng đọc trên thiết bị này."};
   play.textContent="Ⅱ Tạm dừng";stop.hidden=false;status.textContent="Đang đọc";
   synth.speak(utterance);
  });
