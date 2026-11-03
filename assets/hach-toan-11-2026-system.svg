@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 480" role="img" aria-labelledby="title desc"><title id="title">Ý nguyện và hệ thống</title><desc id="desc">Minh họa ba vòng kết nối dữ liệu, con người, quyết định và cây nở hoa, biểu tượng cho System Developer kiến tạo để Support Life.</desc>
+<defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E6F0EB"/><stop offset="1" stop-color="#F7EBD6"/></linearGradient><filter id="sh"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#234D4D" flood-opacity=".12"/></filter></defs><rect width="1000" height="480" rx="32" fill="url(#b)"/>
+<g opacity=".12" stroke="#4B8B89" stroke-width="2"><path d="M0 90h1000M0 190h1000M0 290h1000M0 390h1000M90 0v480M190 0v480M290 0v480M390 0v480M490 0v480M590 0v480M690 0v480M790 0v480M890 0v480"/></g>
+<path d="M199 240H344M653 240H805" stroke="#C59A58" stroke-width="9" stroke-linecap="round" stroke-dasharray="2 22"/>
+<g filter="url(#sh)"><circle cx="156" cy="240" r="105" fill="#FFFDF8"/><circle cx="501" cy="240" r="142" fill="#1F6871"/><circle cx="851" cy="240" r="105" fill="#FFFDF8"/></g>
+<g fill="none" stroke="#2E8D99" stroke-width="8" stroke-linecap="round"><path d="M98 274V239l24-23v58m24-69v68m24-42v42m23-83v84"/><path d="M89 274h120" stroke="#C59A58"/></g>
+<g fill="#C59A58"><rect x="104" y="235" width="15" height="26" rx="3"/><rect x="126" y="220" width="15" height="41" rx="3"/><rect x="148" y="208" width="15" height="53" rx="3"/><rect x="170" y="191" width="15" height="70" rx="3"/></g>
+<g><circle cx="500" cy="222" r="61" fill="#3C9095" opacity=".8"/><path d="M465 230l25 24l49-61" fill="none" stroke="#F8E4B9" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><path d="M430 319h142" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity=".6"/></g>
+<g fill="none" stroke="#2F7775" stroke-width="8" stroke-linecap="round"><circle cx="850" cy="208" r="18"/><path d="M809 279q5-42 41-42q37 0 42 42"/><circle cx="809" cy="234" r="10"/><path d="M788 279q0-27 21-27m83-18q25 0 25 45"/></g>
+<g font-family="Arial,sans-serif" font-weight="800" text-anchor="middle"><text x="156" y="374" font-size="21" fill="#1F6871">DATA</text><text x="501" y="405" font-size="24" fill="#1F6871">SYSTEM</text><text x="851" y="374" font-size="21" fill="#1F6871">PEOPLE</text><text x="500" y="142" font-size="22" fill="#E8D1A0">DECISION</text></g>
+<g fill="#C59A58"><circle cx="303" cy="120" r="7"/><circle cx="709" cy="113" r="8"/><circle cx="740" cy="365" r="5"/></g>
+</svg>
