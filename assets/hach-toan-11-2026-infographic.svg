@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="t d">
+<title id="t">Bản đồ chuyển dịch: Từ nỗi sợ sang lựa chọn từ Essence</title><desc id="d">Bốn tầng: Tâm thức chuyển từ tin khi an toàn sang tin vào Essence và lựa chọn chính mình; Tâm lý từ gồng gánh, chứng minh sang nhận biết Ego; Năng lực từ sợ chưa đủ giỏi sang cởi mở học hỏi; Nghề nghiệp từ giải quyết sự vụ sang hệ thống dài hạn để Support Life.</desc>
+<rect width="1200" height="760" rx="32" fill="#F5F1E9"/>
+<rect x="23" y="22" width="1154" height="716" rx="27" fill="#FFFDF8" stroke="#D9E4DE"/>
+<text x="49" y="76" font-family="Arial,'DejaVu Sans',sans-serif" font-size="29" font-weight="800" fill="#17383D">BẢN ĐỒ CHUYỂN DỊCH</text>
+<text x="49" y="111" font-family="Arial,'DejaVu Sans',sans-serif" font-size="18" fill="#577575">Bài học tâm thức là gốc — biểu hiện qua tâm lý, năng lực và nghề nghiệp</text>
+<text x="270" y="171" font-family="Arial" font-size="15" font-weight="850" letter-spacing="2" fill="#A3645E">KHI NỖI SỢ DẪN DẮT</text>
+<text x="756" y="171" font-family="Arial" font-size="15" font-weight="850" letter-spacing="2" fill="#1F6871">KHI LỰA CHỌN TỪ ESSENCE</text>
+<g>
+  <rect x="42" y="190" width="198" height="100" rx="18" fill="#E5F3ED" stroke="#D9E3DD"/>
+  <circle cx="78" cy="224" r="18" fill="#1F6871"/><text x="78" y="230" text-anchor="middle" font-size="13" font-weight="800" font-family="Arial" fill="#FFFDF8">01</text>
+  <text x="61" y="267" fill="#1F6871" font-size="17" font-weight="850" font-family="Arial,'DejaVu Sans',sans-serif">TÂM THỨC</text>
+  <rect x="259" y="190" width="377" height="100" rx="18" fill="#F9EAE6" stroke="#E9D1CD"/>
+  <text x="282" y="229" fill="#8F5A54" font-family="Arial,'DejaVu Sans',sans-serif" font-weight="600" font-size="19"><tspan x="282" dy="0">Tin khi an toàn,</tspan><tspan x="282" dy="29">được công nhận</tspan></text>
+  <path d="M656 240 h65 m-13 -12 l13 12 -13 12" fill="none" stroke="#C59A58" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="744" y="190" width="414" height="100" rx="18" fill="#E6F3EC" stroke="#C5E1D2"/>
+  <text x="768" y="229" fill="#1F6871" font-family="Arial,'DejaVu Sans',sans-serif" font-weight="600" font-size="19"><tspan x="768" dy="0">Tin vào Essence,</tspan><tspan x="768" dy="29">lựa chọn chính mình</tspan></text>
+ </g><g>
+  <rect x="42" y="309" width="198" height="100" rx="18" fill="#F6EEE6" stroke="#D9E3DD"/>
+  <circle cx="78" cy="343" r="18" fill="#1F6871"/><text x="78" y="349" text-anchor="middle" font-size="13" font-weight="800" font-family="Arial" fill="#FFFDF8">02</text>
+  <text x="61" y="386" fill="#1F6871" font-size="17" font-weight="850" font-family="Arial,'DejaVu Sans',sans-serif">TÂM LÝ</text>
+  <rect x="259" y="309" width="377" height="100" rx="18" fill="#F9EAE6" stroke="#E9D1CD"/>
+  <text x="282" y="348" fill="#8F5A54" font-family="Arial,'DejaVu Sans',sans-serif" font-weight="600" font-size="19"><tspan x="282" dy="0">Gồng gánh, chứng minh,</tspan><tspan x="282" dy="29">bảo vệ bản thân</tspan></text>
+  <path d="M656 359 h65 m-13 -12 l13 12 -13 12" fill="none" stroke="#C59A58" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="744" y="309" width="414" height="100" rx="18" fill="#E6F3EC" stroke="#C5E1D2"/>
+  <text x="768" y="348" fill="#1F6871" font-family="Arial,'DejaVu Sans',sans-serif" font-weight="600" font-size="19"><tspan x="768" dy="0">Nhận biết Ego,</tspan><tspan x="768" dy="29">không đồng nhất</tspan></text>
+ </g><g>
+  <rect x="42" y="428" width="198" height="100" rx="18" fill="#E9F0F2" stroke="#D9E3DD"/>
+  <circle cx="78" cy="462" r="18" fill="#1F6871"/><text x="78" y="468" text-anchor="middle" font-size="13" font-weight="800" font-family="Arial" fill="#FFFDF8">03</text>
+  <text x="61" y="505" fill="#1F6871" font-size="17" font-weight="850" font-family="Arial,'DejaVu Sans',sans-serif">NĂNG LỰC</text>
+  <rect x="259" y="428" width="377" height="100" rx="18" fill="#F9EAE6" stroke="#E9D1CD"/>
+  <text x="282" y="467" fill="#8F5A54" font-family="Arial,'DejaVu Sans',sans-serif" font-weight="600" font-size="19"><tspan x="282" dy="0">Sợ chưa đủ giỏi,</tspan><tspan x="282" dy="29">né điều chưa biết</tspan></text>
+  <path d="M656 478 h65 m-13 -12 l13 12 -13 12" fill="none" stroke="#C59A58" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="744" y="428" width="414" height="100" rx="18" fill="#E6F3EC" stroke="#C5E1D2"/>
+  <text x="768" y="467" fill="#1F6871" font-family="Arial,'DejaVu Sans',sans-serif" font-weight="600" font-size="19"><tspan x="768" dy="0">Cởi mở học hỏi,</tspan><tspan x="768" dy="29">mở rộng lựa chọn</tspan></text>
+ </g><g>
+  <rect x="42" y="547" width="198" height="100" rx="18" fill="#F0EEE9" stroke="#D9E3DD"/>
+  <circle cx="78" cy="581" r="18" fill="#1F6871"/><text x="78" y="587" text-anchor="middle" font-size="13" font-weight="800" font-family="Arial" fill="#FFFDF8">04</text>
+  <text x="61" y="624" fill="#1F6871" font-size="17" font-weight="850" font-family="Arial,'DejaVu Sans',sans-serif">NGHỀ NGHIỆP</text>
+  <rect x="259" y="547" width="377" height="100" rx="18" fill="#F9EAE6" stroke="#E9D1CD"/>
+  <text x="282" y="586" fill="#8F5A54" font-family="Arial,'DejaVu Sans',sans-serif" font-weight="600" font-size="19"><tspan x="282" dy="0">Giải quyết sự vụ,</tspan><tspan x="282" dy="29">bảo vệ sản phẩm</tspan></text>
+  <path d="M656 597 h65 m-13 -12 l13 12 -13 12" fill="none" stroke="#C59A58" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="744" y="547" width="414" height="100" rx="18" fill="#E6F3EC" stroke="#C5E1D2"/>
+  <text x="768" y="586" fill="#1F6871" font-family="Arial,'DejaVu Sans',sans-serif" font-weight="600" font-size="19"><tspan x="768" dy="0">Thiết kế tổng thể, dài hạn,</tspan><tspan x="768" dy="29">kiến tạo để Support Life</tspan></text>
+ </g>
+<rect x="43" y="680" width="1115" height="43" rx="20" fill="#E7F1EE"/><circle cx="65" cy="701" r="7" fill="#C59A58"/>
+<text x="84" y="708" font-family="Arial,'DejaVu Sans',sans-serif" font-size="17" font-weight="700" fill="#295C60">Đã nhận biết và đang thực hành — cần tiếp tục kiểm chứng trong những trải nghiệm mới.</text>
+</svg>
