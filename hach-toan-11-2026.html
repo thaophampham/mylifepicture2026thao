@@ -121,6 +121,43 @@ footer{padding:26px 0;text-align:center;color:var(--muted);font-size:12px}
  section.block{padding:56px 0}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Editorial infographic and progressively disclosed reflections */
+.visual-summary{padding:28px 0 63px}
+.visual-head{display:flex;align-items:end;justify-content:space-between;gap:16px;margin:0 0 16px}
+.visual-head h2{font:500 clamp(28px,3.7vw,45px)/1.13 Georgia,"Times New Roman",serif;letter-spacing:-.035em;margin:7px 0 0}
+.visual-head p{margin:0;color:#527073;font-size:14px;max-width:330px}
+.infographic-frame{overflow:hidden;border-radius:26px;border:1px solid var(--line);background:var(--paper);box-shadow:var(--shadow)}
+.infographic-frame img{width:100%;height:auto;display:block}
+.visual-foot{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:12px;color:var(--muted);font-size:13px}
+.visual-foot a{border-bottom:1px solid var(--gold);color:var(--teal);font-weight:800;white-space:nowrap}
+.mobile-infographic{display:none}
+.mini-shift{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:9px}
+.mini-shift span{padding:7px 10px;border-radius:9px;background:var(--rose);color:#865850;font-size:13px}
+.mini-shift span.after{background:#e2f0e7;color:var(--teal)}
+.mini-shift b{color:var(--gold)}
+.insight{margin-top:12px;padding:12px 15px;border:1px solid var(--line);border-radius:14px;background:rgba(255,253,248,.7)}
+.insight summary{cursor:pointer;list-style:revert;color:var(--teal);font-size:13px;font-weight:850}
+.insight[open]{background:var(--paper)}
+.insight p{margin:11px 0 0;font-size:14px;color:#536d6d;line-height:1.65}
+.insight ul{margin:10px 0 0 16px;padding:0;color:#536d6d;font-size:14px}
+.insight li{margin:5px 0}
+.listen-row{display:flex;gap:11px;align-items:center;flex-wrap:wrap;margin-top:18px}
+.listen-btn{display:inline-flex;align-items:center;gap:9px;padding:10px 17px;border:1px solid #9CC9BE;background:#e6f2ed;border-radius:100px;color:#1F6871;font-size:13px;font-weight:800;cursor:pointer}
+.listen-btn:hover,.listen-btn:focus-visible{background:#d2e8df}
+.listen-btn.stop{background:#fffdf8;border-color:var(--line)}
+.listen-note{font-size:12px;color:var(--muted)}
+.listen-status{font-size:12px;color:var(--teal);min-width:170px}
+@media(max-width:800px){
+ .visual-head{display:block}.visual-head p{margin-top:9px;max-width:unset}
+}
+@media(max-width:640px){
+ .infographic-frame{display:none}
+ .mobile-infographic{display:grid;gap:10px}
+ .shift-card{border:1px solid var(--line);border-radius:18px;background:var(--paper);padding:17px}
+ .shift-card b{display:block;font-size:14px;color:var(--teal);margin-bottom:7px}
+ .visual-foot{align-items:flex-start}
+}
 </style>
 </head>
 <body>
@@ -148,6 +185,8 @@ footer{padding:26px 0;text-align:center;color:var(--muted);font-size:12px}
  <h1>Hạch toán <em>11.2026</em></h1>
  <p class="lead">Niềm tin vào Essence. Từ tìm kiếm sự công nhận đến tự chủ, trưởng thành và kiến tạo từ ý nguyện.</p>
  <div class="meta"><span>Ghi nhận ngày 03/11/2026</span><span>Hạch toán chặng vừa qua</span><span>Trưởng thành × Support Life</span></div>
+ <div class="listen-row" aria-label="Tùy chọn nghe bản tóm tắt"><button type="button" class="listen-btn" id="listenSummary">▶ Nghe tóm tắt</button><button type="button" class="listen-btn stop" id="stopSummary" hidden>Dừng</button><span class="listen-status" id="listenStatus" role="status" aria-live="polite"></span></div>
+ <div class="listen-note">Giọng đọc tự động của trình duyệt, không phải giọng thu của Thảo. Nội dung chính vẫn có đầy đủ trên trang.</div>
  </div>
  <div class="hero-visual"><img src="assets/hach-toan-11-2026-journey.svg" alt="Minh họa con đường từ vùng bất định tới ánh sáng và cây đang nở hoa — hành trình trưởng thành" width="1000" height="610">
   <div class="float-quote">“Mình không sống để chứng minh. Mình sống để biểu hiện Essence.”</div>
@@ -163,6 +202,19 @@ footer{padding:26px 0;text-align:center;color:var(--muted);font-size:12px}
   <a href="#update"><span class="n">06</span><b>UPDATE</b><small>Mình sẽ vận hành thế nào?</small></a>
  </div>
 </div></div></div>
+
+
+<section class="visual-summary" aria-labelledby="infographic-title"><div class="shell">
+ <div class="visual-head"><div><div class="eyebrow">Infographic · Bức tranh tổng thể</div><h2 id="infographic-title">Điều gì thật sự đã chuyển dịch?</h2></div><p>Đọc từ tầng gốc xuống đời sống: Tâm thức → Tâm lý → Năng lực → Nghề nghiệp.</p></div>
+ <div class="infographic-frame"><img src="assets/hach-toan-11-2026-infographic.svg" loading="lazy" width="1200" height="760" alt="Bản đồ chuyển dịch bốn tầng: Tâm thức từ tin khi an toàn sang tin vào Essence; Tâm lý từ gồng gánh sang nhận biết Ego; Năng lực từ sợ chưa đủ giỏi sang học hỏi; Nghề nghiệp từ sự vụ sang hệ thống dài hạn."></div>
+ <div class="mobile-infographic" aria-label="Bản đồ chuyển dịch bốn tầng dạng đọc trên điện thoại">
+  <div class="shift-card"><b>01 · TÂM THỨC</b><div class="mini-shift"><span>Tin khi an toàn</span><b>→</b><span class="after">Tin vào Essence, chọn chính mình</span></div></div>
+  <div class="shift-card"><b>02 · TÂM LÝ</b><div class="mini-shift"><span>Gồng gánh, chứng minh</span><b>→</b><span class="after">Nhận biết Ego, không đồng nhất</span></div></div>
+  <div class="shift-card"><b>03 · NĂNG LỰC</b><div class="mini-shift"><span>Sợ chưa đủ giỏi</span><b>→</b><span class="after">Cởi mở học hỏi, mở rộng lựa chọn</span></div></div>
+  <div class="shift-card"><b>04 · NGHỀ NGHIỆP</b><div class="mini-shift"><span>Giải quyết sự vụ</span><b>→</b><span class="after">Kiến tạo hệ thống dài hạn, Support Life</span></div></div>
+ </div>
+ <div class="visual-foot"><span>Đây là chuyển dịch về nhận thức và lựa chọn đang thực hành — không phải tuyên bố rằng Ego đã biến mất.</span><a href="assets/hach-toan-11-2026-infographic.svg" target="_blank" rel="noopener">Mở infographic cỡ lớn ↗</a></div>
+</div></section>
 
 <section class="block" id="input"><div class="shell">
  <div class="section-head"><div><div class="eyebrow">01 · Input</div><h2>Mình bước vào giai đoạn này với điều gì?</h2></div><p>Mình đã có nguồn lực và ý nguyện trưởng thành, nhưng niềm tin còn phụ thuộc vào hoàn cảnh và sự công nhận.</p></div>
@@ -216,10 +268,18 @@ footer{padding:26px 0;text-align:center;color:var(--muted);font-size:12px}
 <section class="block" id="learning"><div class="shell">
  <div class="section-head"><div><div class="eyebrow">05 · Learning</div><h2>Bài học quan trọng nhất nằm ở tầng gốc</h2></div><p>Sắp theo kiến trúc MLP: <strong>Tâm thức trước</strong>, rồi đến Tâm lý, Năng lực và Nghề nghiệp.</p></div>
  <div class="levels">
-  <div class="level"><div class="level-label">01 · TÂM THỨC</div><div class="level-content"><strong>Tin vào Essence · Yêu thương chính mình · Tự chủ</strong><p>Niềm tin không đòi hỏi cuộc sống theo ý mình. Mình lựa chọn ở lại với chính mình, sống từ giá trị và ý nguyện.</p><div class="compact">Không cần kiểm soát tất cả • Không cần hoàn hảo mới xứng đáng được yêu thương</div></div></div>
-  <div class="level"><div class="level-label">02 · TÂM LÝ</div><div class="level-content"><strong>Nhận biết mà không đồng nhất</strong><p>Nỗi sợ, Ego, sản phẩm hay đánh giá không phải toàn bộ con người mình. Nhìn thấy để có lựa chọn mới.</p></div></div>
-  <div class="level"><div class="level-label">03 · NĂNG LỰC</div><div class="level-content"><strong>Trưởng thành là mở rộng khả năng lựa chọn</strong><p>Không cần luôn đúng hay biết hết; mình cởi mở, học hỏi và bước vào vùng chưa biết.</p></div></div>
-  <div class="level"><div class="level-label">04 · NGHỀ NGHIỆP</div><div class="level-content"><strong>Ý nguyện là gốc. Hệ thống là phương tiện.</strong><p>Không xây hệ thống để chứng minh; kiến tạo giải pháp để hỗ trợ con người và tổ chức.</p></div></div>
+  <div class="level"><div class="level-label">01 · TÂM THỨC</div><div class="level-content"><strong>Tin vào Essence · Yêu thương chính mình · Tự chủ</strong><p>Niềm tin không đòi hỏi cuộc sống theo ý mình. Mình lựa chọn ở lại với chính mình, sống từ giá trị và ý nguyện.</p><div class="compact">Không cần kiểm soát tất cả • Không cần hoàn hảo mới xứng đáng được yêu thương</div>
+ <details class="insight"><summary>Mở 3 bài học nền tảng của Tâm thức</summary><ul>
+ <li><strong>Niềm tin:</strong> Tin vào khả năng nhận biết, yêu thương, học hỏi và trưởng thành dù hoàn cảnh bất định.</li>
+ <li><strong>Lựa chọn mình:</strong> Thấy cả Essence và Ego, không quay lưng hay tự dằn vặt.</li>
+ <li><strong>Tự chủ:</strong> Cam kết với giá trị và ý nguyện, chịu trách nhiệm đúng phần, không gồng gánh mọi thứ.</li>
+ </ul></details></div></div>
+  <div class="level"><div class="level-label">02 · TÂM LÝ</div><div class="level-content"><strong>Nhận biết mà không đồng nhất</strong><p>Nỗi sợ, Ego, sản phẩm hay đánh giá không phải toàn bộ con người mình. Nhìn thấy để có lựa chọn mới.</p>
+ <details class="insight"><summary>Minh chứng từ trải nghiệm</summary><p>Khi phân tích bị chất vấn, mình có thể ghi nhận đóng góp của sản phẩm cũ, nhìn thẳng giới hạn và điều chỉnh mà không xem đó là sự phủ nhận giá trị con người mình.</p></details></div></div>
+  <div class="level"><div class="level-label">03 · NĂNG LỰC</div><div class="level-content"><strong>Trưởng thành là mở rộng khả năng lựa chọn</strong><p>Không cần luôn đúng hay biết hết; mình cởi mở, học hỏi và bước vào vùng chưa biết.</p>
+ <details class="insight"><summary>Những năng lực cần xây dựng</summary><p>Big-picture/System Thinking, Business & Operations Understanding, System Design, Project Management và Teamwork & Collaboration. Đây là mục tiêu phát triển, chưa phải năng lực đã làm chủ.</p></details></div></div>
+  <div class="level"><div class="level-label">04 · NGHỀ NGHIỆP</div><div class="level-content"><strong>Ý nguyện là gốc. Hệ thống là phương tiện.</strong><p>Không xây hệ thống để chứng minh; kiến tạo giải pháp để hỗ trợ con người và tổ chức.</p>
+ <details class="insight"><summary>Ý nguyện nghề cụ thể</summary><p>Support Business: giúp doanh nghiệp hiểu vận hành và ra quyết định tốt hơn. Support People: giúp mọi người làm việc hiệu quả, chủ động với thông tin rõ ràng. Support Long-term Development: nhìn tổng thể, kết nối và thiết kế hệ thống có giá trị bền vững, không chỉ xử lý sự vụ.</p></details></div></div>
  </div>
  <span class="result-quote">“Mình không cần bảo vệ quá khứ để bảo vệ bản thân.”</span>
 </div></section>
@@ -244,6 +304,10 @@ footer{padding:26px 0;text-align:center;color:var(--muted);font-size:12px}
   <article class="update"><div class="n">04</div><div><strong>Kiến tạo & kiểm chứng</strong><p>Xuất phát từ nhu cầu ra quyết định; đánh giá giá trị thực tế của hệ thống.</p></div></article>
  </div>
  <div class="statusline"><strong>Vòng thực hành:</strong> BE → OWN → BUILD → SHOW ON → Trải nghiệm → Hạch toán → Update → Trưởng thành.</div>
+ <details class="insight" style="margin-top:20px"><summary>Ba tình huống để kiểm chứng trong giai đoạn tiếp theo</summary>
+ <ul><li><strong>Khi bị chất vấn:</strong> Mình lắng nghe, làm rõ quyết định cần hỗ trợ và kiểm chứng dữ liệu trước khi phòng vệ?</li>
+ <li><strong>Khi gặp bất định:</strong> Mình nhận biết nỗi sợ, yêu thương bản thân và chủ động lựa chọn việc có thể làm?</li>
+ <li><strong>Khi xây dựng hệ thống:</strong> Mình xác định giá trị dài hạn, vai trò các bên và cách đo tác động thực tế?</li></ul></details>
 </div></section>
 <section class="end"><div class="shell">
  <div class="mini">Một điều mình mang theo</div>
@@ -253,5 +317,31 @@ footer{padding:26px 0;text-align:center;color:var(--muted);font-size:12px}
 </div></section>
 </main>
 <footer>Thảo · My Life Picture 2026 · Sheet 6 · Ghi nhận 03/11/2026</footer>
+
+<script>
+(function(){
+ const play=document.getElementById("listenSummary"), stop=document.getElementById("stopSummary"), status=document.getElementById("listenStatus");
+ if(!play||!stop||!status)return;
+ const synth=window.speechSynthesis;
+ if(!synth||!window.SpeechSynthesisUtterance){play.disabled=true;status.textContent="Trình duyệt này chưa hỗ trợ giọng đọc.";return;}
+ const script="Hạch toán tháng mười một năm hai nghìn không trăm hai mươi sáu. Mình bước vào giai đoạn với niềm tin vào Essence, nhưng vẫn sợ bị thay thế và mong muốn được công nhận. Khi môi trường công việc thay đổi, mình đã thấy các mô thức gồng gánh, chứng minh và phòng vệ. Mình thực hành nhận biết, đón nhận, buông sự đồng nhất với sản phẩm và quay về giá trị bên trong. Bài học quan trọng nhất là tin vào Essence dù cuộc sống bất định, yêu thương và ở lại với chính mình, tự chủ và cam kết với ý nguyện. Trong nghề System Developer, mình mong muốn giúp doanh nghiệp hiểu rõ hoạt động, giúp con người làm việc và ra quyết định hiệu quả. Mình cần tiếp tục học tư duy tổng thể, thiết kế hệ thống, quản trị dự án và teamwork. Đây là những lựa chọn đang thực hành, chưa phải kết quả đã ổn định. Mình không sống để chứng minh. Mình kiến tạo để Support Life.";
+ let utterance=null;
+ const reset=()=>{play.textContent="▶ Nghe tóm tắt";stop.hidden=true;utterance=null;};
+ play.addEventListener("click",()=>{
+  if(synth.paused&&synth.speaking){synth.resume();play.textContent="Ⅱ Tạm dừng";status.textContent="Đang đọc";return;}
+  if(synth.speaking){synth.pause();play.textContent="▶ Tiếp tục";status.textContent="Đã tạm dừng";return;}
+  synth.cancel();
+  utterance=new SpeechSynthesisUtterance(script);
+  utterance.lang="vi-VN";utterance.rate=.97;utterance.pitch=1;
+  const voices=synth.getVoices();const vi=voices.find(v=>/^vi[-_]/i.test(v.lang));if(vi)utterance.voice=vi;
+  utterance.onend=()=>{reset();status.textContent="Đã nghe xong."};
+  utterance.onerror=()=>{reset();status.textContent="Không thể phát giọng đọc trên thiết bị này."};
+  play.textContent="Ⅱ Tạm dừng";stop.hidden=false;status.textContent="Đang đọc";
+  synth.speak(utterance);
+ });
+ stop.addEventListener("click",()=>{synth.cancel();reset();status.textContent="Đã dừng."});
+ window.addEventListener("pagehide",()=>synth.cancel());
+})();
+</script>
 </body>
 </html>
